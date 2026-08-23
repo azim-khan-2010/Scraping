@@ -1,41 +1,45 @@
 # Web Scraper
 
-Web scraping application using python to scrape book titles, prices, and ratings from the Books to Scrape demo website, storing its output in a CSV file.
+A basic web scraper in Python which scrapes the book title, prices, and ratings of the books from the demo website "Books to Scrape" and exports the output to a CSV file.
+
 
 ## Installation
 
-Download the project from GitHub
+Clone the repository:
 
 git clone https://github.com/azim-khan-2010/Scraping.git
 
 cd Scraping
 
-Install the required libraries
+Install the required packages:
 
 pip install -r requirements.txt
 
+
 ## Usage
 
-Run the scraper
+Run the script using the command:
 
 python scraper.py
 
-The extracted data will be stored in:
+The scrapped data will be stored in:
 
 data/scraped_data.csv
 
-## Technology Stack
+
+## Tools
 
 - Python 3
 - Requests
 - BeautifulSoup4
 - CSV
 
+
 ## Output
 
-Data is stored in a CSV file which contains the book title, price, and rating.
+The CSV file will contain the book title, prices and ratings.
+
 
 ## Author
 
 Azim Khan
-
